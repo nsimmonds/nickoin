@@ -1,11 +1,11 @@
-FROM ubuntu:16.04
+FROM ubuntu:18.04
 COPY ./nickoin.conf /root/.nickoin/nickoin.conf
 COPY . /nickoin
 WORKDIR /nickoin
 #shared libraries and dependencies
 RUN apt update
-RUN apt-get install -y build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils
-RUN apt-get install -y libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-program-options-dev libboost-test-dev libboost-thread-dev
+RUN apt-get install -y build-essential libtool autotools-dev automake autoconf pkg-config libssl-dev libevent-dev bsdmainutils
+RUN apt-get install -y libfmt-dev libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-program-options-dev libboost-test-dev libboost-thread-dev
 #BerkleyDB for wallet support
 RUN apt-get install -y software-properties-common
 RUN add-apt-repository ppa:bitcoin/bitcoin
@@ -16,6 +16,9 @@ RUN apt-get install -y libminiupnpc-dev
 #ZMQ
 RUN apt-get install -y libzmq3-dev
 #build nickoin source
+
+# FROM diacritic/nickoinbase
+
 RUN ./autogen.sh
 RUN ./configure
 RUN make

@@ -10,7 +10,7 @@ An experimental altcoin built to understand blockchain fundamentals hands-on. Fo
 - Cryptocurrency wallet/transaction mechanics
 - Build toolchains for compiled blockchain clients
 
-Built following [this tutorial](link) as a structured learning exercise, then extended with custom modifications.
+Built following [this tutorial](https://www.hackster.io/pjdecarlo/how-to-make-a-cryptocurrency-using-litecoin-v0-15-source-fb5e82#toc-10--deploy-a-minimum-of-2-nodes-12) as a structured learning exercise, then extended with custom modifications.
 
 ## Why build this?
 

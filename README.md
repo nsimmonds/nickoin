@@ -1,23 +1,25 @@
-nickoin Core integration/staging tree
-=====================================
+# Nickoin
 
-[![Build Status](https://travis-ci.org/nickoin-project/nickoin.svg?branch=master)](https://travis-ci.org/nickoin-project/nickoin)
+A blockchain implementation exploring cryptocurrency architecture and consensus mechanisms.
 
-https://nickoin.org
+## What is this?
 
-What is nickoin?
-----------------
+An experimental altcoin built to understand blockchain fundamentals hands-on. Forked from Litecoin, this project explores:
+- Proof-of-work consensus implementation
+- P2P network architecture for distributed ledgers  
+- Cryptocurrency wallet/transaction mechanics
+- Build toolchains for compiled blockchain clients
 
-nickoin is a joke coin made by Nick Simmonds within about a day to demonstrate that it
-takes no real depth of knowledge anymore to launch a coin, just a whim and an afternoon.
-It was largely done with the tutorial [here](https://www.hackster.io/pjdecarlo/how-to-make-a-cryptocurrency-using-litecoin-v0-15-source-fb5e82#toc-10--deploy-a-minimum-of-2-nodes-12_).
+Built following [this tutorial](link) as a structured learning exercise, then extended with custom modifications.
 
-If you try to do it yourself, the tutorial is a little out of date but gets you 95% of
-the way there. This is a fork of Litecoin and is in progress, some places might reference
-Litecoin instead of Nickoin.
+## Why build this?
 
-License
--------
+The best way to understand distributed consensus systems is to build one. This project demystifies blockchain beyond the hype - understanding the actual engineering constraints, security models, and architectural tradeoffs.
 
-nickoin Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
-information or see https://opensource.org/licenses/MIT.
+## Status
+
+Experimental/educational. Some references to Litecoin remain from the original fork.
+
+## License
+
+Released under MIT license. See COPYING for details.

@@ -14,7 +14,7 @@ Built following [this tutorial](link) as a structured learning exercise, then ex
 
 ## Why build this?
 
-The best way to understand distributed consensus systems is to build one. This project demystifies blockchain beyond the hype - understanding the actual engineering constraints, security models, and architectural tradeoffs.
+The best way to understand distributed consensus systems is to build one. This project demystifies blockchain beyond the hype: understanding the actual engineering constraints, security models, and architectural tradeoffs. **This is not a coin meant for distribution**. Please do not mine Nickoins; as a safeguard I've mined a bunch myself and will absolutely dump them and ruin the market if you try to make money off this.
 
 ## Status
 
